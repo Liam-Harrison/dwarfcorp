@@ -1,0 +1,31 @@
+{
+  "Name": "Lamp",
+  "EntityName": "Lamp",
+  "RequiredResources": [
+    {
+      "Type": "Fuel",
+      "Count": 1
+    }
+  ],
+  "Icon": {
+    "Sheet": "furniture",
+    "Tile": 9
+  },
+  "BaseCraftTime": 10.0,
+  "Description": "Dwarves need to see sometimes too!",
+  "Type": "Object",
+  "Prerequisites": [
+    "OnGround"
+  ],
+  "ResourceCreated": "",
+  "CraftLocation": "",
+  "Verb": "Build",
+  "PastTeseVerb": "Built",
+  "CurrentVerb": "Building",
+  "AllowHeterogenous": false,
+  "SpawnOffset": "0, 0.5, 0",
+  "AddToOwnedPool": true,
+  "Moveable": true,
+  "CraftActBehavior": "Normal",
+  "Tutorial": "To see better underground or at night you can build lamps. Lamps burn indefinitely without having to be recharged."
+}

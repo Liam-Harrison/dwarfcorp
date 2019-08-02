@@ -1,0 +1,37 @@
+{
+  "Name": "Tower of Health",
+  "EntityName": "Tower of Health",
+  "Category": "Magic",
+  "RequiredResources": [
+    {
+      "Type": "Magical",
+      "Count": 4
+    },
+    {
+      "Type": "Edible",
+      "Count": 2
+    }
+  ],
+  "Icon": {
+    "Sheet": "furniture",
+    "Tile": 22
+  },
+  "BaseCraftTime": 20.0,
+  "Description": "Heals your dwarfs when they are feeling ill.",
+  "Type": "Object",
+  "Prerequisites": [
+    "OnGround"
+  ],
+  "ResourceCreated": "",
+  "CraftLocation": "",
+  "Verb": "Build",
+  "PastTeseVerb": "Built",
+  "CurrentVerb": "Building",
+  "AllowHeterogenous": false,
+  "SpawnOffset": "0, 0.5, 0",
+  "AddToOwnedPool": true,
+  "Moveable": true,
+  "CraftActBehavior": "Normal",
+  "IsMagical": true,
+  "Tutorial": "The tower of health automatically heals nearby dwarfs. It must be recharged from time to time by wizards."
+}

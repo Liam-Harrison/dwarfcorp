@@ -1,0 +1,29 @@
+{
+  "Name": "Bread",
+  "EntityName": "Bread",
+  "RequiredResources": [
+    {
+      "Type": "Bakeable",
+      "Count": 1
+    }
+  ],
+  "Icon": {
+    "Sheet": "resources",
+    "Tile": 22
+  },
+  "BaseCraftTime": 5.0,
+  "Description": "Turn bakeable food into bread.",
+  "Type": "Resource",
+  "Prerequisites": [],
+  "ResourceCreated": "Bread",
+  "CraftLocation": "Stove",
+  "Verb": "Bake",
+  "PastTeseVerb": "Baked",
+  "CurrentVerb": "Baking",
+  "AllowHeterogenous": false,
+  "SpawnOffset": "0, 0.5, 0",
+  "AddToOwnedPool": false,
+  "Moveable": false,
+  "CraftActBehavior": "Bread",
+  "Tutorial" : "Bread can be created by baking a bakeable resource (such as grain) in a stove. Bread satifies more hunger than raw foods."
+}

@@ -1,0 +1,21 @@
+{
+  "CanBuildAboveGround": true,
+  "CanBuildBelowGround": true,
+  "MinimumSideLength": 3,
+  "MinimumSideWidth": 3,
+  "MaxNumRooms": 2147483647,
+  "Name": "Graveyard",
+  "DisplayName" : "Grave\nYard",
+  "FloorType": "Dirt",
+  "RequiredResources": {
+    "Soil": {
+      "Type": "Soil",
+      "Count": 4
+    }
+  },
+  "NewIcon": {
+    "Sheet": "rooms",
+    "Tile": 12
+  },
+  "Description": "Dwarves bury the dead here."
+}

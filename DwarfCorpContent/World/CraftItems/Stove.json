@@ -1,0 +1,31 @@
+{
+  "Name": "Stove",
+  "EntityName": "Stove",
+  "RequiredResources": [
+    {
+      "Type": "Fuel",
+      "Count": 2
+    }
+  ],
+  "Icon": {
+    "Sheet": "furniture",
+    "Tile": 35
+  },
+  "BaseCraftTime": 30.0,
+  "Description": "Dwarves use the stove to cook meals.",
+  "Type": "Object",
+  "Prerequisites": [
+    "OnGround"
+  ],
+  "ResourceCreated": "",
+  "CraftLocation": "",
+  "Verb": "Build",
+  "PastTeseVerb": "Built",
+  "CurrentVerb": "Building",
+  "AllowHeterogenous": false,
+  "SpawnOffset": "0, 0.5, 0",
+  "AddToOwnedPool": true,
+  "Moveable": true,
+  "CraftActBehavior": "Normal",
+  "Tutorial": "Stoves can be used to bake grain into bread. Bread is more nutritious than raw grain."
+}

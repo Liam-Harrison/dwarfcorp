@@ -1,0 +1,31 @@
+{
+  "Name": "Wooden Chair",
+  "EntityName": "Wooden Chair",
+  "Category": "Chairs",
+  "RequiredResources": [
+    {
+      "Type": "Wood",
+      "Count": 1
+    }
+  ],
+  "Icon": {
+    "Sheet": "furniture",
+    "Tile": 45
+  },
+  "BaseCraftTime": 9.0,
+  "Description": "Dwarves sit here and relax. Place next to tables for eating.",
+  "Type": "Object",
+  "Prerequisites": [
+    "OnGround"
+  ],
+  "ResourceCreated": "",
+  "CraftLocation": "",
+  "Verb": "Build",
+  "PastTeseVerb": "Built",
+  "CurrentVerb": "Building",
+  "AllowHeterogenous": false,
+  "SpawnOffset": "0, 0.45, 0",
+  "AddToOwnedPool": true,
+  "Moveable": true,
+  "CraftActBehavior": "Normal"
+}

@@ -1,0 +1,37 @@
+{
+  "Name": "Tower of Life",
+  "EntityName": "Tower of Life",
+  "Category": "Magic",
+  "RequiredResources": [
+    {
+      "Type": "Magical",
+      "Count": 4
+    },
+    {
+      "Type": "AboveGroundPlant",
+      "Count": 2
+    }
+  ],
+  "Icon": {
+    "Sheet": "furniture",
+    "Tile": 21
+  },
+  "BaseCraftTime": 20.0,
+  "Description": "Place near farms to watch them grow faster.",
+  "Type": "Object",
+  "Prerequisites": [
+    "OnGround"
+  ],
+  "ResourceCreated": "",
+  "CraftLocation": "",
+  "Verb": "Build",
+  "PastTeseVerb": "Built",
+  "CurrentVerb": "Building",
+  "AllowHeterogenous": false,
+  "SpawnOffset": "0, 0.5, 0",
+  "AddToOwnedPool": true,
+  "Moveable": true,
+  "CraftActBehavior": "Normal",
+  "IsMagical": true,
+  "Tutorial": "The tower of life should be built near seedlings. It automatically makes seedlings grow faster. It must be recharged by a wizard."
+}

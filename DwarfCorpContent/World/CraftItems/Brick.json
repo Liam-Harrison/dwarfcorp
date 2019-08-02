@@ -1,0 +1,29 @@
+{
+  "Name": "Brick",
+  "EntityName": "Brick",
+  "RequiredResources": [
+    {
+      "Type": "Soil",
+      "Count": 1
+    }
+  ],
+  "Icon": {
+    "Sheet": "resources",
+    "Tile": 5
+  },
+  "BaseCraftTime": 3.0,
+  "Description": "Made from dirt. Building material.",
+  "Type": "Resource",
+  "Prerequisites": [],
+  "ResourceCreated": "Brick",
+  "CraftLocation": "Forge",
+  "Verb": "Build",
+  "PastTeseVerb": "Built",
+  "CurrentVerb": "Building",
+  "AllowHeterogenous": false,
+  "SpawnOffset": "0, 0.5, 0",
+  "AddToOwnedPool": false,
+  "Moveable": false,
+  "CraftActBehavior": "Normal",
+  "Tutorial": "Using a forge, dwars can turn dirt into bricks. Bricks can be used to place brick blocks or floors."
+}

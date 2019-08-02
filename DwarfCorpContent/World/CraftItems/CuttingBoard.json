@@ -1,0 +1,35 @@
+{
+  "Name": "Cutting Board",
+  "EntityName": "Cutting Board",
+  "RequiredResources": [
+    {
+      "Type": "Wood",
+      "Count": 2
+    },
+    {
+      "Type": "Metal",
+      "Count": 2
+    }
+  ],
+  "Icon": {
+    "Sheet": "furniture",
+    "Tile": 56
+  },
+  "BaseCraftTime": 30.0,
+  "Description": "Dwarves use the cutting board to cook meals.",
+  "Type": "Object",
+  "Prerequisites": [
+    "OnGround"
+  ],
+  "ResourceCreated": "",
+  "CraftLocation": "",
+  "Verb": "Build",
+  "PastTeseVerb": "Built",
+  "CurrentVerb": "Building",
+  "AllowHeterogenous": false,
+  "SpawnOffset": "0, 0.5, 0",
+  "AddToOwnedPool": true,
+  "Moveable": true,
+  "CraftActBehavior": "Normal",
+  "Tutorial": "The cutting board can be used to create meals. Meals are combos of two or more edible items. Meals satisfy more hunger than raw foods."
+}

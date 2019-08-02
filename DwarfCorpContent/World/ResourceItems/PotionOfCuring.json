@@ -1,0 +1,90 @@
+{
+  "Name": "Potion Of Curing",
+  "MoneyValue": 100.0,
+  "Description": "Dwarfs drink this potion to cure all disease.",
+  "GuiLayers": [
+    {
+      "Sheet": "resources",
+      "Tile": 44
+    }
+  ],
+  "Tags": [
+    "Potion"
+  ],
+  "FoodContent": 0.0,
+  "CompositeLayers": [
+    {
+      "Asset": "newgui\\resources",
+      "FrameSize": "32, 32",
+      "Frame": "4, 5"
+    }
+  ],
+  "TrinketData": {
+    "BaseAsset": null,
+    "EncrustingAsset": null,
+    "SpriteRow": 0,
+    "SpriteColumn": 0
+  },
+  "Generated": true,
+  "ShortName": "Potion Of Curing",
+  "MaterialStrength": 5.0,
+  "PlantToGenerate": null,
+  "CanCraft": true,
+  "CraftPrerequisites": [
+    {
+      "Type": "Magical",
+      "Count": 1
+    },
+    {
+      "Type": "AnimalProduct",
+      "Count": 1
+    }
+  ],
+  "Tint": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "AleName": "",
+  "CraftInfo": {
+    "CraftItemType": "Potion Of Curing",
+    "Resources": null
+  },
+  "PotionType": {
+    "Name": "Potion Of Curing",
+    "Description": "Dwarfs drink this potion to cure all disease.",
+    "Effects": {
+      "$type": "DwarfCorp.CureDiseaseBuff, /Content",
+      "EffectTime": {
+        "TargetTimeSeconds": 1.0,
+        "CurrentTimeSeconds": 0.0,
+        "TriggerOnce": true,
+        "HasTriggered": false,
+        "Mode": "Game"
+      },
+      "IsInEffect": true,
+      "Particles": null,
+      "ParticleTimer": {
+        "TargetTimeSeconds": 1.0,
+        "CurrentTimeSeconds": 0.0,
+        "TriggerOnce": true,
+        "HasTriggered": false,
+        "Mode": "Game"
+      },
+      "SoundOnStart": null,
+      "SoundOnEnd": null
+    },
+    "Ingredients": [
+      {
+        "Type": "Magical",
+        "Count": 1
+      },
+      {
+        "Type": "AnimalProduct",
+        "Count": 1
+      }
+    ],
+    "Icon": 44
+  }
+}
